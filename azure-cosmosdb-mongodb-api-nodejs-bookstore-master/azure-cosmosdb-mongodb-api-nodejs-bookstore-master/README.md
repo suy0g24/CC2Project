@@ -4,15 +4,14 @@ Cosmos Bookstore is a sample books catalog application that demonstrates the cap
 
 Some of the functionalities being demonstrated are:
 
+- Using template for resource creation
+- App services
 - Connecting to the database & the client configuration
 - Reads & Queries
 - Sorting & Indexing
 - Updates
 - Using different operators
-- Checking RU cost of the previous operation
-- Regex queries
-- Aggregation pipelines
-- Azure Search integration
+- Using the pipeline of azure to get the deployment code from github
 
 ## Deploy the app quickly
 
@@ -33,11 +32,6 @@ Now you can try out the application by browsing to the app service URL.
 You can find the URL in the overview section of the App Service resource created by the deployment template.
 ![Cosmos Bookstore Main page](deployment/docs/images/cosmosbookstoremainpage.png)
 
-### Setup Azure Search Integration
+## Dataset
 
-Optionally, you can [setup Azure Search integration](deployment/docs/azuresearchsetup.md) to try out the full text functionality in the app. 
-> Azure Search support for Cosmos DB API for MongoDB is currently in preview, so the feature will explicitly need to be enabled for your subscription.
-
-## Dataset Credits
-
-The dataset used in this application is ["GoodReads 100k books"](https://www.kaggle.com/mdhamani/goodreads-books-100k) dataset from Kaggle.
+ ["GoodReads 100k books"](https://www.kaggle.com/mdhamani/goodreads-books-100k) 
